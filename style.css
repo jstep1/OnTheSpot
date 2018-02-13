@@ -1,0 +1,23 @@
+header, footer {
+    background-color: black;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #32CD32;
+}
+
+h4, p, a {
+    text-align: center;
+    color: white;
+}
+
+.hdr {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#login {
+    float: right;
+}

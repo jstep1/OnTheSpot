@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>On The Spot | Find More From Your Favorite Artists</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="images/onthespot.ico" rel="icon" type="image/x-icon" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>On The Spot</h1>
+            <!-- <p id="login"><a href="https://accounts.spotify.com/en/authorize" target="_blank">Login</a> -->
+            <h4>Find more from your favorite artists</h4>
+            <p>Powered by <img class="img-fluid" src="images/logo/Spotify_Logo_RGB_Green.png" style="height: 8%; width: 8%"></p>
+        </header>
+
+        <div class="row hdr">
+            <div class="col-md-8">
+                <h3>Your Top Artists of 2017...</h3>
+            </div>
+            <div class="col-md-4">
+                <form id="artist-form">
+                        <label for="artist-input"><h5>Find an Artist:</h5></label>
+                        <input type="text" id="artist-input">
+                        <button class="btn btn-dark" id="add-artist" type="submit" value="Submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="artists">
+                <span id="empty"><p style="color: gray">Looks like your list is empty. Add a few artists!</p>
+                </span>
+        </div>
+
+        <footer class="fixed-bottom">
+            <p>Copyright &copy; 2018 Jay Step</p>
+        </footer>
+
+</div>
+</body>
+
+</html>
